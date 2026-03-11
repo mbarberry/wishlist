@@ -32,7 +32,7 @@ Resources:
       BinaryMediaTypes:
         - '*'
       Domain:
-        DomainName: api.wishlists.link
+        DomainName: api-wishlist.cainbarberry.com
         CertificateArn:
           Ref: CertificateARN
         EndpointConfiguration: REGIONAL
@@ -79,4 +79,4 @@ Resources:
 Outputs:
   WishlistsBackend:
     Description: 'API root URL'
-    Value: 'https://api.wishlists.link/'
+    Value: 'api.wishlist.cainbarberry.com'

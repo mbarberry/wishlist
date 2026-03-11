@@ -1,4 +1,4 @@
-const API_ROUTE = 'https://api.wishlists.link';
+const API_ROUTE = 'https://api-wishlist.cainbarberry.com';
 
 const createPostOptions = (body) => {
   return {
